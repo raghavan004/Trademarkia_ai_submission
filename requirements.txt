@@ -1,0 +1,10 @@
+sentence-transformers
+scikit-learn
+numpy
+scipy
+chromadb
+fastapi
+uvicorn[standard]
+pydantic
+pandas
+tqdm
