@@ -8,3 +8,4 @@ uvicorn[standard]
 pydantic
 pandas
 tqdm
+qdrant_client

@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  semantic-search:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./qdrant_db:/app/qdrant_db
+      - ./clustering:/app/clustering
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
