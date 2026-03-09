@@ -33,6 +33,7 @@ uvicorn api.main:app --host 0.0.0.0 --port 8000
 Visit `http://localhost:8000/docs` for Swagger UI.
 
 ## Docker
+#Live at https://hub.docker.com/r/raghavan004/trademarkia-search
 ```bash
 docker-compose up --build
 ```
